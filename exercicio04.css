@@ -1,0 +1,48 @@
+h1 {
+    padding: 20px;
+    display: flexbox;
+    color: blue;
+    
+
+}
+
+.form {
+    width: 980px;
+    background: #c4bebe;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    
+
+}
+
+#nome {
+    position: relative;
+    left: 50px;
+    display: inline-block;
+    width: 20em;
+
+}
+
+#data {
+    position: relative;
+    left: 50px;
+    display: inline-block;
+    width: 10em;
+
+}
+
+#cpf {
+    position: relative;
+    left: 50px;
+    display: inline-block;
+    width: 10em;
+
+}
+
+
+
+
+
