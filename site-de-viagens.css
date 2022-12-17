@@ -1,0 +1,125 @@
+body {
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cabecalho {
+    background-color: #555555;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    color: aliceblue;
+    
+
+}
+
+.logotipo {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.section-cartoes {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+
+
+.cartao {
+    background-color: white;
+    width: 20vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+
+.cartao img {
+    padding: 5px;
+    width: auto;
+    height: 200px;
+
+    border-radius: 10px;
+    
+    
+}
+
+.cartao-conteudo {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.cartao-conteudo div {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartao-conteudo div h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+.cartao-conteudo div p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.cartao-conteudo button {
+    width: 10vw;
+    height: 5vh;
+    background-color: red;
+    border-radius: 10px;
+
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+.rodape {
+    width: 100vw;
+    height: 100px;
+    background-color: #555555;
+    color: aliceblue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape p {
+    font-size: medium;
+
+}

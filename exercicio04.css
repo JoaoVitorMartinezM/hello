@@ -1,6 +1,7 @@
 h1 {
     padding: 20px;
-    display: flexbox;
+    position: relative;
+    left: 40%;
     color: blue;
     
 
@@ -20,7 +21,7 @@ h1 {
 
 #nome {
     position: relative;
-    left: 50px;
+    left: 0%;
     display: inline-block;
     width: 20em;
 
@@ -28,7 +29,7 @@ h1 {
 
 #data {
     position: relative;
-    left: 50px;
+    left: 0.5%;
     display: inline-block;
     width: 10em;
 
@@ -36,7 +37,7 @@ h1 {
 
 #cpf {
     position: relative;
-    left: 50px;
+    left: 13%;
     display: inline-block;
     width: 10em;
 
