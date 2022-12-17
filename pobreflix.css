@@ -1,0 +1,97 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #333;
+
+}
+
+header {
+    background-color: #000000;
+    color: red;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: bolder;
+}
+
+header button {
+    background-color: red;
+    color: aliceblue;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-pesquisa {
+    background-color: #000000;
+    color: aliceblue;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.pesquisa {
+    display: flex;
+    height: 25px;
+    
+}
+
+.pesquisa button {
+    background-color: red;
+    color: aliceblue;
+    height: 28px;
+    
+}
+
+
+
+
+
+.section-conteudo1 {
+
+}
+
+.section-conteudo2 {
+
+}
+
+.section-vantegem {
+
+}
+
+
+footer {
+    background-color: #000000;
+    color: #555555;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    width: 10vw;
+    margin: 5px;
+}
