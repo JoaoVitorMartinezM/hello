@@ -1,0 +1,112 @@
+body {
+    width: auto;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+header {
+    width: auto;
+    height: 110px;
+    gap: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0060B1;
+}
+
+.menu {
+    width: 40px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.menu div {
+    width: 25px;
+    height: 3px;
+
+    background-color: #FFFFFF;
+}
+
+#logo {
+    width: 150px;
+    height: 50px;
+}
+
+#icone {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 25px;
+}
+
+header div input {
+    width: 500px;
+    padding: 10px 25px;
+
+    font-size: large;
+    border-radius: 5px;
+}
+
+footer {
+    width: auto;
+    height: 88px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    background-color: #003A6A;
+}
+
+
+
+.texto-rodape span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.texto-rodape p{
+    font-size: 12px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.input-rodape {
+    padding: 12px 24px;
+    width: 350px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+footer button {
+    padding: 12px 24px;
+    width: 245px;
+
+    background-color: #FF6500;
+    color: #FFFFFF;
+
+    font-weight: 1000;
+    border-radius: 5px;
+    border: 1px solid#FF6500;
+}
+
+.cadastro-ofertas {
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
