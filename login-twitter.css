@@ -1,0 +1,93 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #999999;
+}
+
+.login-container {
+    width: 600px;
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+    background-color: #FFFFFF;
+
+    border-radius: 20px;
+
+}
+
+.titulo-login {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.login {
+    width: auto;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.login button {
+    width: 300px;
+    height: 40px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+
+    font-weight: bolder;
+}
+
+div .avancar {
+    width: 300px;
+    height: 40px;
+
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 20px;
+
+    font-weight: bolder;
+
+}
+
+.login input {
+    width: 300px;
+    height: 40px;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    
+    font-size: large;
+
+
+}
+
+.inscreva-se {
+    color: #555555;
+}
+
+i {
+    padding: 5px;
+    font-size: large;
+}
+
+#icon-twitter {
+    font-size: xx-large;
+    color: rgb(17, 184, 240);
+}
+
