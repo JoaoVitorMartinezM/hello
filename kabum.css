@@ -23,7 +23,10 @@ header {
     background-color: #0060B1;
     color: #FFF;
 }
+ main { 
+    display: flex;
 
+ }
 .menu {
     width: 40px;
     height: 20px;
@@ -98,7 +101,7 @@ nav ul button{
 
 .menu-lateral {
     width: 60px;
-    height: 80vh;
+    height: 75vh;
     padding: 5px;
 
     display: flex;
@@ -115,6 +118,74 @@ nav ul button{
 
     font-weight: bold;
     font-size: x-large;
+}
+
+.secao-pedido {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 400px;
+    margin: 100px 400px;
+    padding: 20PX 50PX;
+    justify-content:flex-start ;
+    align-items: flex-start;
+
+    background-color: #FFF;
+}
+
+.secao-pedido h2 {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.topo {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-bottom: 25px;
+
+    font-weight: bold;
+
+    justify-content: space-around;
+}
+
+.secao-pedido img {
+    width: 110px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+#descricao-produto {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #000;
+    align-items: center;
+
+}
+
+#descricao-produto div{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.secao-pedido button {
+    padding: 12px 24px;
+    width: 245px;
+    margin-left: 716px;
+
+    background-color: #FF6500;
+    color: #FFFFFF;
+
+    font-weight: 1000;
+    border-radius: 5px;
+    border: 1px solid#FF6500;
 }
 
 
